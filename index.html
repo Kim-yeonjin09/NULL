@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NULL</title>
+    <link rel="stylesheet" href="./style.css">
+    <style> #inner {color: red;} </style>
 </head>
 <body>
     <h1>NULL</h1>
@@ -12,6 +14,10 @@
     <h4>NULL</h4>
     <h5>NULL</h5>
     <h6>NULL</h6>
+
+    <p style="color: yellow;">HTML에 직접 포함(인라인 스타일)</p>
+    <p id="inner">HTML에 직접 포함(내부 스타일 시트)</p>
+    <p id="outer">외부 CSS 불러오기(외부 스타일 시트)</p>
 
     <p>
         <em>NULL 2025</em>
@@ -29,16 +35,35 @@
         </ol>
 
         <ul>unordered list <!--순서가 매겨지지 않은 리스트-->
-            <li> list item 
+            <li> 
                 목록항목 1
             </li>
-            <li> list item 
+            <li>  
                 목록항목 2
             </li>
         </ul>
+
+        <!-- <div class="div1"> DIV 1</div>
+        <div id="div2"> DIV 2</div>
+        <div> DIV 3</div> -->
+
+        <div class="divAll">
+            <div id="div1">DIV 1</div>
+            <div class="null">DIV 2</div>
+            <div id="div3">DIV 3
+                <a class="null">DIV B</a>
+            </div>
+            <div class="null">DIV 4</div>
+        </div>
+
+        <div style="display: flex;">
+            <div style="background-color: red;">1</div>
+            <div style="background-color: blue;">2</div>
+            <div style="background-color: green;">3</div>
+        </div>
     </p>
 
-    <!-- <a href = "https://naver.com"> click! </a> -->
+    <a href = "https://naver.com"> click! </a>
     <img src="./nullicon.png" alt="NULLICON" title="NULL" width="100px">
 
 </body>

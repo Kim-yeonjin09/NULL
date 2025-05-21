@@ -1,0 +1,13 @@
+#outer {color: blue;}
+/* div {
+    background-color: orange;
+    height: 30vh;  //viewport + width/height
+}
+
+.div1 {border-radius: 100px;}
+#div2 {font-weight: bolder;}  */
+
+.divAll .null {background-color: red;}
+.divAll > .null {color: #16dcff;}
+#div1 ~ .null {border-radius: 10px;}
+#div1 + .null {border: 5px black solid;}
